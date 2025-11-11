@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.search input{
+    padding: 14px 30px;
+}
+
+#search-btn {
+    width: 30px;
+    height: 30px;
+}

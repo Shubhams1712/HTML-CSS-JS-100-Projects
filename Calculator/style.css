@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Technology";
+    src: url("technology/Technology.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #E2F6FF;
+}
+
+.container .heading {
+    margin-bottom: 20px;
+}
+
+.calculator {
+    background-color: #3a4452;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.calculator form input {
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fff;
+    margin: 4px;
+    background-color: #3a4452;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.1), 5px 5px 5px rgba(255, 255, 255, 0.2);
+}
+
+.calculator form .btn:active {
+    transform: scale(0.9);
+}
+.calculator form .btn:active {
+    transition: 0.1s ease;
+}
+
+.calculator form .display {
+    display: flex;
+}
+
+.calculator form .display input{
+    border: 1px solid;
+    box-shadow:none;
+    width: 279px;
+    height: 80px;
+    padding: 0 10px;
+    text-align: right;
+    font-family: "Technology";
+    font-size: 45px;
+}
+
+.calculator form div #equal {
+    width: 135px;
+}
+
